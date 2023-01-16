@@ -1,10 +1,10 @@
 import React from "react";
-import "../styles/home.css"
+import "../styles/home.css";
 
 export default function Home() {
   return (
     <div className="home">
-      <div>Home</div>
+      <div>home</div>
     </div>
   );
 }

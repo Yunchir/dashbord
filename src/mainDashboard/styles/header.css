@@ -1,0 +1,38 @@
+.container {
+  max-width: 1280px;
+  margin: auto;
+}
+
+.btn {
+  color: rgb(0, 121, 227);
+  border: none;
+  background-color: #fff;
+}
+
+.haeader {
+  width: "100%";
+  height: "60px";
+  background-color: "grey";
+  box-sizing: border-box;
+}
+
+.head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 20px;
+}
+
+.input {
+  padding: 8px;
+  width: 800px;
+}
+
+.search {
+  display: flex;
+  border-radius: 30px;
+}
+
+.log {
+  display: flex;
+}
