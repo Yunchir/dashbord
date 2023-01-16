@@ -1,8 +1,10 @@
 import React from "react";
+import "../styles/home.css"
+
 export default function Home() {
   return (
-    <div style={{ width: "80%", minHeight: "100vh" }}>
-      <h1>Home</h1>
+    <div className="home">
+      <div>Home</div>
     </div>
   );
 }

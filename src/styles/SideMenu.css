@@ -1,5 +1,16 @@
-.side {
-  width: 60%;
+.sideMenu {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
   height: 100vh;
-  background-color: gray;
+  background-color: rgb(39, 138, 238);
+}
+
+button{
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
 }

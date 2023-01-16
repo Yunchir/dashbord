@@ -1,12 +1,16 @@
+import React from "react";
 import { useNavigate } from "react-router-dom";
-import "../styles/SideMenu";
+import "../styles/SideMenu.css"
 
 export default function SideMenu() {
   const navigate = useNavigate();
 
   return (
-    <div style={{ width: "100%", height: "60px", backgroundColor: "grey" }}>
-      SideMenu
+    <div className="sideMenu">
+      <button onClick={() => {navigate("/")}}>Home</button>
+      <button onClick={() => {navigate("/Products")}}>Products</button>
+      <button onClick={() => {navigate("/Users")}}>Users</button>
+      <button onClick={() => {navigate("/Login")}}>Login</button>
     </div>
   );
 }
