@@ -1,11 +1,15 @@
 import "../../../style/main/speical/speicalAbout.css";
-export default function SpeicalAbout() {
+export default function SpeicalAbout(prop) {
+  const { data } = prop;
   return (
-    <div className="SpeicalAbout">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet porro
-      architecto dolorum, optio, voluptatem ut quae a, repellat consequuntur
-      laboriosam eaque! Autem unde modi labore dicta illum perferendis saepe.
-      Dolor.
-    </div>
+    <>
+      <div className="SpeicalAbout">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure,
+          molestiae?
+        </p>
+        <div></div>
+      </div>
+    </>
   );
 }

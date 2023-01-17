@@ -2,6 +2,7 @@ import "../style/Header.css";
 import logo from "../img/logo.svg";
 import user from "../img/user.svg";
 import cart from "../img/shopping-cart.svg";
+
 export default function Header() {
   return (
     <div className="header">
@@ -16,7 +17,12 @@ export default function Header() {
           <button className="searchBtn">Search</button>
         </div>
         <div className="profile">
-          <button className="signIn">
+          <button
+            className="signIn"
+            onClick={() => {
+              "/singIn";
+            }}
+          >
             <img src={user} alt="" /> Sign in
           </button>
           <button className="cart">

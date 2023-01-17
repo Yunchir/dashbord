@@ -4,8 +4,7 @@ export const data = [
     spec: [{ height: "69 7/8 inches" }, { width: "35 3/4 inches" }],
     name: "CANON",
     id: "a4bbe2cc",
-    image:
-      "https://image-us.samsung.com/SamsungUS/home/home-appliances/refrigerators/090321/rs22t5561sr/RS22T5561SR_01_SIlver_samsung.jpg?$product-details-jpg$",
+    image: "https://i.ebayimg.com/images/g/E8wAAOSwO9Bjmd1t/s-l1600.jpg",
     price: 12222,
     stock: 12,
     sale: 23,
@@ -19,7 +18,8 @@ export const data = [
       { RAM: "16GB" },
     ],
     id: "ea5e3b6c",
-    image: "https://i.ebayimg.com/images/g/E8wAAOSwO9Bjmd1t/s-l1600.jpg",
+    image:
+      "https://image-us.samsung.com/SamsungUS/home/home-appliances/refrigerators/090321/rs22t5561sr/RS22T5561SR_01_SIlver_samsung.jpg?$product-details-jpg$",
     description:
       "Used: An item that has been used previously. The item may have some signs of cosmetic wear, but is fully operational and functions as intended. This item may be a floor model or store return that has been used. See the seller’s listing for full details and description of any imperfections. ",
     price: 180,

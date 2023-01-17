@@ -4,7 +4,7 @@ import Products from "./Main/Products";
 import Navbar from "./Main/Navbar";
 import Ads from "./Main/Ads";
 import Speical from "./Main/Speical";
-import { data } from "../../until/data";
+import { data } from "../../util/data";
 
 export default function Main() {
   return (

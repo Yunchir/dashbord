@@ -1,13 +1,10 @@
-import Main from "./usersBrowser/components/Main";
-import Header from "./usersBrowser/components/Header";
-import Footer from "./usersBrowser/components/Footer";
+import React from "react";
+import User from "./usersBrowser/components/User";
 
 function App() {
   return (
     <div className="app container">
-      <Header />
-      <Main />
-      <Footer />
+      <User />
     </div>
   );
 }
