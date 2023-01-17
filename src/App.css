@@ -1,8 +1,7 @@
-.main {
+.App {
+  min-width: 1200px;
   display: flex;
-}
-
-.container {
-  min-width: 1280px;
-  margin: auto;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: space-between;
 }

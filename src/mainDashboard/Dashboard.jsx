@@ -5,7 +5,7 @@ import SideMenu from "./components/SideMenu.jsx";
 import Products from "./pages/Products";
 import Users from "./pages/Users";
 import { Route, Routes } from "react-router-dom";
-import "./dashboard.css";
+import "./styles/dashboard.css";
 
 function Dashboard() {
   return (
