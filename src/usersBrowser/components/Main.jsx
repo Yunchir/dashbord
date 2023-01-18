@@ -1,6 +1,6 @@
 import Slide from "./Main/Slide";
 import "../style/Main.css";
-import Products from "./Main/Products";
+import Product from "./Main/Product";
 import Navbar from "./Main/Navbar";
 import Ads from "./Main/Ads";
 import Speical from "./Main/Speical";
@@ -17,7 +17,7 @@ export default function Main() {
       />
       <div className="container">
         <Navbar />
-        <Products data={data} />
+        <Product data={data} />
         <Ads />
         <Speical data={data} />
       </div>

@@ -26,25 +26,25 @@ export default function SideMenu() {
           navigate("/Users");
         }}
       >
-        Захиалгууд
-      </button>
-      <button
-        onClick={() => {
-          navigate("/Login");
-        }}
-      >
         Хэрэглэгчид
       </button>
       <button
         onClick={() => {
-          navigate("/Login");
+          navigate("/Orders");
+        }}
+      >
+        Захиалгууд
+      </button>
+      <button
+        onClick={() => {
+          navigate("/Moderator");
         }}
       >
         Модератор
       </button>
       <button
         onClick={() => {
-          navigate("/Login");
+          navigate("/Settings");
         }}
       >
         Тохиргоо

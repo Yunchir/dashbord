@@ -1,8 +1,14 @@
 .navbar {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   padding: 0px 20px;
+  gap: 20px;
+}
+
+.navbarItem {
+  display: flex;
 }
 
 .navbarList {
