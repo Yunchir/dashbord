@@ -1,5 +1,6 @@
 import "../../style/main/Product.css";
 import cart from "../../img/shopping-cart.svg";
+
 export default function Product(prop) {
   return (
     <div className="product">

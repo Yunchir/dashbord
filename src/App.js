@@ -4,6 +4,7 @@ import React from "react";
 import Header from "./usersBrowser/components/Header";
 import Main from "./usersBrowser/components/Main";
 import Footer from "./usersBrowser/components/Footer";
+import SignIn from "./usersBrowser/components/SignIn";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       {/* <User /> */}
       {/* <Dashboard /> */}
       <Header />
+      <SignIn />
       <Main />
       <Footer />
     </div>
