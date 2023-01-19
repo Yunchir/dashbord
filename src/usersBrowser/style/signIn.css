@@ -94,3 +94,8 @@
   margin-left: 200px;
   color: gray;
 }
+
+.logo .deleteIcon {
+  background-color: #fff;
+  border: none;
+}
