@@ -43,6 +43,7 @@ export default function Navbar() {
 
       {Input.map((pro) => (
         <Product
+          id={pro.id}
           name={pro.name}
           title={pro.description}
           category={pro.category}

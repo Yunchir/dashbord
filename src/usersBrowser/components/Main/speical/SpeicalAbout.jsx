@@ -1,6 +1,5 @@
 import "../../../style/main/speical/speicalAbout.css";
-export default function SpeicalAbout(prop) {
-  const { data } = prop;
+export default function SpeicalAbout() {
   return (
     <>
       <div className="SpeicalAbout">
@@ -8,7 +7,6 @@ export default function SpeicalAbout(prop) {
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure,
           molestiae?
         </p>
-        <div></div>
       </div>
     </>
   );

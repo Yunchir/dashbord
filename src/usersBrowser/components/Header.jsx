@@ -3,7 +3,8 @@ import logo from "../img/logo.svg";
 import user from "../img/user.svg";
 import cart from "../img/shopping-cart.svg";
 
-export default function Header() {
+export default function Header(prop) {
+  const { setSign } = prop;
   return (
     <div className="header">
       <div className="headerContent">
@@ -17,12 +18,7 @@ export default function Header() {
           <button className="searchBtn">Search</button>
         </div>
         <div className="profile">
-          <button
-            className="signIn"
-            onClick={() => {
-              "/singIn";
-            }}
-          >
+          <button className="signIn" onClick={() => setSign(true)}>
             <img src={user} alt="" /> Sign in
           </button>
           <button className="cart">
