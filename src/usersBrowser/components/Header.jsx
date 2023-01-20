@@ -8,9 +8,14 @@ import { useState } from "react";
 export default function Header(prop) {
   const { setSign } = prop;
   const navigate = useNavigate();
-  const [val, setVal] = useState();
+  const [val, setVal] = useState("");
   function search() {
-    navigate(`/search/${val}`);
+    console.log(val);
+    if (val === "") {
+      console.log("no");
+    } else {
+      navigate(`/search/${val}`);
+    }
   }
   return (
     <div className="header">

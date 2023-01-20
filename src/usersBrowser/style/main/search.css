@@ -1,0 +1,9 @@
+.search{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container{
+    max-width: 1300px;
+    margin: auto;
+}

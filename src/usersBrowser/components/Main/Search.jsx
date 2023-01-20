@@ -1,21 +1,23 @@
 import { useParams } from "react-router-dom";
 import { data } from "../../../util/data";
 import Product from "./Product";
+import "../../style/main/search.css";
 
 export default function Search() {
   const test = useParams();
 
   let dat = data.filter((t) =>
-    t.name.toLowerCase().includes(test.product.toLowerCase)
+    t.name.toLowerCase().includes(test.product.toLowerCase())
   );
   return (
-    <div>
+    <div className="search container">
       {dat.map((e) => (
         <Product
-          title={e.title}
-          image={e.image}
+          naem={e.name}
+          img={e.image}
           description={e.description}
           price={e.price}
+          category={e.category}
           id={e.id}
         />
       ))}
