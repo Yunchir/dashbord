@@ -8,6 +8,7 @@ import SignIn from "./usersBrowser/components/SignIn";
 import { useState } from "react";
 import { Routes, Route } from "react-router-dom";
 import ProductPage from "../src/usersBrowser/components/Main/ProductPage";
+import Search from "./usersBrowser/components/Main/Search";
 
 function App() {
   const [signIn, setSignIn] = useState();
@@ -22,6 +23,7 @@ function App() {
       <Routes>
         <Route path="/Page/:id" element={<ProductPage />} />
         <Route path="/" element={<Main />} />
+        <Route path="/search/:product" element={<Search />} />
       </Routes>
       <Footer />
     </div>
