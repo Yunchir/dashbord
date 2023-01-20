@@ -10,7 +10,7 @@ export default function Search() {
     t.name.toLowerCase().includes(test.product.toLowerCase())
   );
   return (
-    <div className="search container">
+    <div className="search searchContainer">
       {dat.map((e) => (
         <Product
           naem={e.name}

@@ -1,9 +1,10 @@
-.search{
-    display: flex;
-    flex-wrap: wrap;
+.search {
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.container{
-    max-width: 1300px;
-    margin: auto;
+.searchContainer {
+  margin: 20px 0px 20px 0px;
+
+  gap: 20px;
 }
