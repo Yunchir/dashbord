@@ -639,3 +639,16 @@ export const data = [
     category: "appliances",
   },
 ];
+
+export const users = [
+  {
+    userName: "1",
+    password: "1",
+    role: "admin",
+  },
+  {
+    userName: "uka",
+    password: "uka",
+    role: "user",
+  },
+];

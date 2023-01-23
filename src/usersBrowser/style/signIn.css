@@ -29,7 +29,7 @@
   justify-content: space-between;
 }
 
-.singInp {
+.signInp {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -37,7 +37,7 @@
   margin-top: 40px;
 }
 
-.singInp input {
+.signInp input {
   width: 350px;
   padding: 20px;
   font-size: 20px;
@@ -53,7 +53,7 @@
   border-radius: 10px;
 }
 
-.singInp .userSing {
+.signInp .userSign {
   background-color: #003585;
   color: #fff;
   width: 400px;
